@@ -1,0 +1,72 @@
+/* Custom styles for product image carousel */
+.product-slider .slick-slider {
+  position: relative;
+}
+
+.product-slider .slick-list {
+  overflow: hidden;
+}
+
+.product-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.product-slider .slick-slide {
+  height: 256px;
+}
+
+.product-slider .slick-slide > div {
+  height: 100%;
+}
+
+/* Custom dots styling */
+.product-slider .custom-dots {
+  bottom: 12px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-slider .custom-dots li {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+}
+
+.product-slider .custom-dots li button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  font-size: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-slider .custom-dots li button:hover {
+  background: #00A86B;
+  transform: scale(1.2);
+}
+
+.product-slider .custom-dots li.slick-active button {
+  background: #00A86B;
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* Arrow button hover effects */
+.product-slider button[class*="Arrow"] {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-slider:hover button[class*="Arrow"] {
+  opacity: 1;
+}
