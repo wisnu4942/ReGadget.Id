@@ -173,7 +173,7 @@ export function ProductSection() {
                 </div>
 
                 {/* CTA Button */}
-                <button 
+                <button onClick={() => window.open(`https://wa.me/6289506585597?text=Halo, saya mau pesan ${product.name}`, '_blank')}
                   className="w-full flex items-center justify-center gap-2 py-3 text-white rounded-lg transition-all transform hover:scale-105"
                   style={{ backgroundColor: '#00A86B', fontWeight: '600' }}
                 >

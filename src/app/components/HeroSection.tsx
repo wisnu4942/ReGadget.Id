@@ -38,14 +38,14 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
+            <button onClick={() => document.getElementById('produk')?.scrollIntoView({behavior: 'smooth'})}
               className="flex items-center justify-center gap-2 px-8 py-4 text-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
               style={{ backgroundColor: '#00A86B' }}
             >
               <Package className="w-5 h-5" />
               <span style={{ fontWeight: '600' }}>Cek Stok Sekarang</span>
             </button>
-            <button 
+            <button onClick={() => window.open('https://wa.me/6289506585597', '_blank')} 
               className="flex items-center justify-center gap-2 px-8 py-4 text-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
               style={{ backgroundColor: '#00A86B' }}
             >
