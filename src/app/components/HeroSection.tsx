@@ -45,7 +45,7 @@ export function HeroSection() {
               <Package className="w-5 h-5" />
               <span style={{ fontWeight: '600' }}>Cek Stok Sekarang</span>
             </button>
-            <button onClick={() => window.open('https://wa.me/6289506585597', '_blank')} 
+            <button onClick={() => window.open('https://wa.me/6289506585599', '_blank')} 
               className="flex items-center justify-center gap-2 px-8 py-4 text-white rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
               style={{ backgroundColor: '#00A86B' }}
             >

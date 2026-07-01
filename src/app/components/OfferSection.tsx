@@ -75,7 +75,7 @@ export function OfferSection() {
             </div>
 
             {/* CTA */}
-            <button onClick={() => window.open(`https://wa.me/6289506585597?text=Halo, saya mau pesan dengan kode promo REGADGET50`, '_blank')}
+            <button onClick={() => window.open(`https://wa.me/6289506585599?text=Halo, saya mau pesan dengan kode promo REGADGET50`, '_blank')}
               className="inline-flex items-center gap-3 px-10 py-4 text-white rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105"
               style={{ backgroundColor: '#00A86B', fontFamily: 'Poppins, sans-serif', fontWeight: '600', fontSize: '18px' }}
             >
